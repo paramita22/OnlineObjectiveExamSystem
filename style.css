@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2021, 10:02:36 PM
+    Author     : pal20
+*/
+
+
+body,html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    padding-top:50px;
+    background-color:#ffffff;
+ 
+    object-fit: cover;
+}
+ .container-fluid{
+                background-color:#d4547d;
+                background-image: url("img/online4.jpg");
+            }
+
+
+            #content{
+                background-color:#9d9d9d;
+                ackground-image: url('img/LOGO1.jpg');
+                min-height:400px;
+            }
+            #banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0,0,128, 0.7);
+    max-width: 660px;
+}
+.container-fluid{
+    background-image: url('img/online3.jpg');
+                min-height:600px;
+                object-fit:contain;
+                }
+.panel-header{
+    padding-top:100px;
+}
+.panel-body{
+    padding-top:200px;
+}
+
+
+.navbar{
+    padding-bottom:-15px;
+}
+.navbar-brand{
+    font-size:20px;
+}
+form{
+    background-color: paleturquoise;
+}
+ a.button:hover{
+            background-color:#009999;
+            color:#ffffff;
+            display:block;
+        }
+.vertical-div-left{
+    background-color:#d4547d;
+    padding:10px 10px;
+    color:black;
+    float:left;
+}
+.vertical-div-right{
+    background-color:#0e818c;
+    padding:10px 10px;
+    margin-right:200px;
+    color:palegreen;
+    float:right;
+}
+#banner-text{
+    font-style:oblique;
+    font-family:sans-serif;
+    font-size:36px;
+    font-weight:800;
+    color:blue;
+}
+
+@media screen and (max-width:480px){
+    .container{max-width:480px;}
+    .nav{display:block;}
+}
+@media screen and (min-width:480px) and (max-width:768px){
+    .container{max-width:768px;}
+    .nav{color:green;}
+    
+}
+    
+
+.navbar-toggle {
+
+}
+
+.icon-bar {
+
+}
+
+.navbar-inverse {
+
+}
+
+.navbar-fixed-top {
+
+}
+
+.navbar-header {
+
+}
+
+.panel-footer {
+
+}
+
+.btn {
+
+}
+
+.form-group {
+
+}
+
+.btn-primary {
+
+}
+
+.btn-bloc {
+
+}
+
+.form-control {
+
+}
+.question-text{
+    font-family: sans-serif;
+    font-size:20px;
+    font-weight:700;
+}
+
+.row {
+
+}
+
+.text-center {
+
+}
+
+.col-xs-2 {
+
+}
+
+.scrollable {
+
+}
+
+.col-xs-14 {
+
+}
+
+.btn-block {
+
+}
+
+.panel {
+
+}
+
+.banner-text {
+
+}
